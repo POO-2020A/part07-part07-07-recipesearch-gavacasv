@@ -113,8 +113,7 @@ public class RecipeSearch {
                                 words = recipes.get(i).split(" ");
                                 for (String word : words) {
                                     if (word.equals(find)) {
-                                       
-                                        found += "\n" + auxiliar ;
+                                      found += "\n" + auxiliar ;
                                     }
                                 }
                                 i++;
